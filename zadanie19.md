@@ -1,0 +1,1 @@
+Brak refleksji. Myślę że mój gemini zbyt często był proszony o zwięzłe odpowiedzi
