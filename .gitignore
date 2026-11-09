@@ -1,0 +1,55 @@
+# Zależności Node.js
+node_modules/
+jspm_packages/
+web_modules/
+
+# Logi aplikacji i pakietów
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Zmienne środowiskowe i pliki sekretów
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+
+# Dane lokalnej bazy MongoDB i wolumeny Dockera
+data/
+db/
+mongo-data/
+mongo_data/
+dump/
+*.db
+*.sqlite
+
+# Pliki budowania (Build / TypeScript)
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Testy i pokrycie kodu
+coverage/
+.nyc_output/
+
+# Narzędzia Dockera (opcjonalne lokalne nakładki)
+docker-compose.override.yml
+
+# Pliki edytorów i systemu operacyjnego
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
